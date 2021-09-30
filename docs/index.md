@@ -72,5 +72,28 @@ Show “Powered by” message, mentioning MkDocs and this theme. Default: true.
 5.MkDocs Material.
 It provides extensible keyboard navigation and semantic markup including role attributes and landmarks. Modern architecture — Material for MkDocs's underlying codebase is built on top of TypeScript, RxJS, and SCSS, bringing excellent possibilities for theme extension and customization.
 
+MKDOCS SYNTAX.
+
+1.File layout.
+Your documentation source should be written as regular Markdown files,and placed in the documentation directory. By default, this directory will be named docs and will exist at the top level of your project, alongside the mkdocs.yml configuration file. 
+
+2.Index pages
+When a directory is requested, by default, most web servers will return an index file  contained within that directory if one exists. For that reason, the homepage in all of the examples above has been named index.md, which MkDocs will render to index.html when building the site.
+
+3.Configure Pages and Navigation
+The nav configuration setting in your mkdocs.yml file defines which pages are included in the global site navigation menu as well as the structure of that menu. If not provided, the navigation will be automatically created by discovering all the Markdown files in the documentation directory. 
+
+4.Writing with Markdown
+MkDocs pages must be authored in Markdown, a lightweight markup language which results in easy-to-read, easy-to-write plain text documents that can be converted to valid HTML documents in a predictable manner.
+
+5.Internal links
+MkDocs allows you to interlink your documentation by using regular Markdown links. 
+
+6.Linking to images and media.
+As well as the Markdown source files, you can also include other file types in your documentation, which will be copied across when generating your documentation site.
+
+py
+import this
+print("Please document syntax highlighting in mkdocs")
 
 
