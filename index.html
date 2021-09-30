@@ -121,7 +121,23 @@ Boolean, whether to include TOC in sidebar navigation or not. Default: false.</p
    6.extra.show_powered_by.
 Show “Powered by” message, mentioning MkDocs and this theme. Default: true.</p>
 <p>5.MkDocs Material.
-It provides extensible keyboard navigation and semantic markup including role attributes and landmarks. Modern architecture — Material for MkDocs's underlying codebase is built on top of TypeScript, RxJS, and SCSS, bringing excellent possibilities for theme extension and customization.</p></div>
+It provides extensible keyboard navigation and semantic markup including role attributes and landmarks. Modern architecture — Material for MkDocs's underlying codebase is built on top of TypeScript, RxJS, and SCSS, bringing excellent possibilities for theme extension and customization.</p>
+<p>MKDOCS SYNTAX.</p>
+<p>1.File layout.
+Your documentation source should be written as regular Markdown files,and placed in the documentation directory. By default, this directory will be named docs and will exist at the top level of your project, alongside the mkdocs.yml configuration file. </p>
+<p>2.Index pages
+When a directory is requested, by default, most web servers will return an index file  contained within that directory if one exists. For that reason, the homepage in all of the examples above has been named index.md, which MkDocs will render to index.html when building the site.</p>
+<p>3.Configure Pages and Navigation
+The nav configuration setting in your mkdocs.yml file defines which pages are included in the global site navigation menu as well as the structure of that menu. If not provided, the navigation will be automatically created by discovering all the Markdown files in the documentation directory. </p>
+<p>4.Writing with Markdown
+MkDocs pages must be authored in Markdown, a lightweight markup language which results in easy-to-read, easy-to-write plain text documents that can be converted to valid HTML documents in a predictable manner.</p>
+<p>5.Internal links
+MkDocs allows you to interlink your documentation by using regular Markdown links. </p>
+<p>6.Linking to images and media.
+As well as the Markdown source files, you can also include other file types in your documentation, which will be copied across when generating your documentation site.</p>
+<p>py
+import this
+print("Please document syntax highlighting in mkdocs")</p></div>
             </div>
         </div>
 
@@ -202,5 +218,5 @@ It provides extensible keyboard navigation and semantic markup including role at
 
 <!--
 MkDocs version : 1.2.2
-Build Date UTC : 2021-09-30 08:17:40.930975+00:00
+Build Date UTC : 2021-09-30 08:30:40.957593+00:00
 -->
