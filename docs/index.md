@@ -1,99 +1,94 @@
-# Welcome to MkDocs
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Thank you for choosing to be part of our community at TECHCARE, doing business as JAMI-BORA® ("JAMI-BORA®," "we," "us," or "our"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice or our practices about your personal information, please contact us at customercare@techcare.com 
 
-## Commands
+###INTRODUCTION TO TECHCARE COMMUNITY HEALTH WORKERS
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
 
-## Project layout
+The vast majority of health data in Africa is collected in paper form which is a slow, inaccurate, and unreliable process. Jamii Bora application aims to disrupt this problem by digitally empowering thousands of community health workers (CHWs) with better ways of collecting community health-related data as well as providing accurate care and prompt follow-ups by using a web application that consists of the households, assessment questions, and respective information of the households in a given area. It also has a Calendar whereby they can schedule their tasks and also be notified on tasks scheduled by respective organizations they work for.
+Jamii Bora ensures consistent and accurate data records for the organizations which will, in turn, improve performance and workflows for pregnancy care, childhood diseases, nutrition, family planning, and immunization tracking in the communities. 
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Jamii Bora enables a CHW to add households to her profile thereafter, assessing them according to the questions provided in the assessment forms. 
 
- 
-TECHNICAL DOCUMENTATION TOOLS IN MKDOCS
- 
-Bit.ai.
-Bit.ai is new-age documentation and knowledge management tool that provides a common workplace for technical writers to collaborate, document, track and share their knowledge, brainstorm ideas, store digital assets, and innovate together.
-Unlike standard Notepad, MS Word, and Google Docs, Bit documents are interactive. This means, whether your team is creating technical documentation, training manuals, technical specs sheet, best practices, product catalogs, etc., they can easily add code blocks, training videos, and presentations directly into a Bit document within seconds.
- 
-Adobe FrameMaker
-Adobe FrameMaker is a sophisticated document processor that suites large industrial standard documentation. It can be used to generate structured documents with an XML framework that’s 100% Darwin Information Typing Architecture (DITA) compliant. FrameMaker is a DITA-friendly technical writing tool with the built-in ability to print a PDF and a great alternative to editors like MS Word.
-Additionally, documents created with FrameMaker span over 200+ pages with pre-defined templates in several industrial standard formats – such as financial statements and legal agreements. You can also generate automatic hyperlinks, a list of figures, a table of contents, and a list of tables in just a few clicks.
- 
-ProProfs Knowledge Base
-This tool is beautifully used to meet the demands of businesses all over the globe, it helps you create a company-wide knowledge platform, more like a manual, that can be easily accessed via multiple devices, including mobile phones, tablets, and laptops.
-ProProfs offer compelling features, such as MS Word-like editor, Google-like search functionality, workflows, customization options, and more, merged to provide you an ultra-modern experience. It even facilitates minute tasks like adding text to multiple pages at a go, adding your firm’s logo, creating toggle content.
- 
-Snagit
-They are used for  screenshots with various attributes like- frames, arrows, circles, etc. These elements help readers to understand images in a simple and faster way!
- 
-MarkdownPad
-MarkdownPad is one of the most popular Markdown document editors used by technical writers. It provides a lot of customizations like fonts, color schemes, sizes, and layouts. It even has a built-in CSS editor and supports your custom CSS stylesheets.
- 
-Whatfix.
-This technical writing tool allows you to create compelling guides and help articles, presented in the form of real-time interactive walkthrough elements.
- 
-THEMES IN MKDOCS
- 
-1.Custom theme.
-Used to create cohesive branding.Furthermore, a distinct design can also help your site stand out from competitors.
- 
-2.Basic theme.
-This determines the colours, borders, shadows, size, and shape of individual elements on the screen.
- 
- 
-3.MkDocs Windmill.
-It helps retains the state of the menu of pages and folders across page transitions, by keeping navigation to an iframe. It also implements a versatile search, featuring term highlighting, and both a quick dropdown and a full-page option that allows the user to come back to search results
- 
-4.MkDocs Alabster.
-It consist of;
-   1.extra.logo.
-Relative path to a logo image, which will appear in the upper left corner above the name of the project.
- 
-   2.extra.logo_name.
-Set to true to insert your site's project name under the logo image as text. Useful if your logo doesn't include the project name itself. Defaults to false.
- 
-   3.extra.logo_title.
-Logo's title attribute has a Default: your site_name.
-   4.extra.include_toc.
-Boolean, whether to include TOC in sidebar navigation or not. Default: false.
- 
-   5.extra.extra_nav_links.
-   6.extra.show_powered_by.
-Show “Powered by” message, mentioning MkDocs and this theme. Default: true.
- 
-5.MkDocs Material.
-It provides extensible keyboard navigation and semantic markup including role attributes and landmarks. Modern architecture — Material for MkDocs's underlying codebase is built on top of TypeScript, RxJS, and SCSS, bringing excellent possibilities for theme extension and customization.
+Jamii Bora’s Dashboard is meant for the organizations that will be receiving the information metrics once the CHW submits her assessment task.
 
-MKDOCS SYNTAX.
 
-1.File layout.
-Your documentation source should be written as regular Markdown files,and placed in the documentation directory. By default, this directory will be named docs and will exist at the top level of your project, alongside the mkdocs.yml configuration file. 
 
-2.Index pages
-When a directory is requested, by default, most web servers will return an index file  contained within that directory if one exists. For that reason, the homepage in all of the examples above has been named index.md, which MkDocs will render to index.html when building the site.
+The kind of documentation we will need;
+User Documentation
+This is the documentation for our product provided for our end users. With the help of user documentation, we will be able to deliver a great customer experience, cut down on customer care costs, and ensure that the end-users get the complete value out of our product.
+Since the community health worker is our end-user, this document will guide them on how to properly install, use, and/or troubleshoot a product. It will help reduce confusion to them so they won’t have to keep calling the customer service for help on how to use the different features in our application.
+The user documentation will consist of the following :
+Installation/Setup Guide
+We will provide comprehensive installation or setup guides, including detailed, step-by-step instructions to make the overall process user-friendly. With the help of these tutorials, we will ensure that the community health workers don’t mess up when starting their journeys with our product.
+Comprehensive User Manual
+This refers to the complete, in-depth user guide that will come with our product. It includes even the slightest learning curve of the product.
+It includes everything, from an instruction manual on how to install our product, to troubleshooting steps, and a breakdown of the user interface and/or the various features in between.
+Reference Guides
+This is intended for more experienced end-users. A reference document sheds light on the functionality of any one aspect or feature of a product. That way, if any user, who already knows about our product at hand, can get quick information about certain features without having to skim through the entire user manual.
 
-3.Configure Pages and Navigation
-The nav configuration setting in your mkdocs.yml file defines which pages are included in the global site navigation menu as well as the structure of that menu. If not provided, the navigation will be automatically created by discovering all the Markdown files in the documentation directory. 
 
-4.Writing with Markdown
-MkDocs pages must be authored in Markdown, a lightweight markup language which results in easy-to-read, easy-to-write plain text documents that can be converted to valid HTML documents in a predictable manner.
 
-5.Internal links
-MkDocs allows you to interlink your documentation by using regular Markdown links. 
 
-6.Linking to images and media.
-As well as the Markdown source files, you can also include other file types in your documentation, which will be copied across when generating your documentation site.
+Process  Documentation
+Process documentation creates a process document: a detailed description of every requirement needed to properly build our product. It will capture a step-by-step process that will take and how long we take to build.
+We will need to :
+1) Define the Process
+We will need to decide on the process we will document first and our requirements. 
+We will need to define it clearly, including the purpose of the document, how it will benefit us, and how the process itself can be improved over time.
+2) Describe Process Scope
+We will need to work on defining the short and long-term scope of the project.
+The project scope consists of basic details of the tasks, the number of tasks, and whether the task will cover a  series of processes.
+3) Establish Process Boundaries
+We will need to describe the parameters and boundaries of the actual process, including the starting points and end points, as well as what will cause the process to start and end. 
+This will allow all the stakeholders to plan successive processes and gauge if the process can be speeded up.
+4) Determine the Process Inputs and Outputs
+We will need to explain the number and types of resources needed to perform each step of the process and the quantitative outcome of each step. 
+This will help finance and resource management team members determine how they should structure the resource input for maximum gain. It will also help project the cost-to-benefit ratio for each process step. 
+In the long run, we will be able to track these numbers for current process optimization and make smarter process decisions. 
+5) List and Describe the Process Steps
+We will then start brainstorming the activities and operations needed to complete each step of the process.
+This will allow the technical staff to see if the number of steps can be reduced to reach the final outcome that's already been decided. 
+6) Organize Steps in a Sequence
+We will need to organize the steps into the optimal sequence to create a smooth workflow.
+We will need to consider which step follows which and come up with ways to reduce the gap between each step if you can by implementing more efficient activities. 
+We will need to identify which steps logically follow each other and which go together. 
+7) List the Stakeholders
+We will need to describe all the members involved in the process (and process documentation) and define their roles in the process and mention their official titles, as well as their individual progress. We will need to make sure to clarify each person’s roles.
+8) Visualize the Full Process
+This will create a mental flowchart of the process, as well as improve the readability and clarity of the entire process for everyone involved. 
+9) Clarify Process Flow Exceptions
+Keeping future process modifications in mind, it’s important to mention any and all steps that might be exceptions to the ones listed in the documentation. 
+This is a future-proofing method that opens the process up to streamlining in the future. If a new tech product or automation measure comes up, process owners need to be able to implement that into the process without causing extensive revisions. 
+11) Test and Review the Process
+This will bring together all the stakeholders and review the documentation set. We will make the process map open to suggestions and critique and look for any missing steps, miscalculations, any steps out of order, or general errors. Once the process is finalized, test out the process and check if anything is missing, or if it’s consuming more resources than necessary. 
+Product Documentation
+We provide services to you via our PWA(Progressive web application) which can be accessed on any gadget. (Mobile phone, laptop, or Ipad). Our product will help you 
+Our product enables you(The community health worker registered with us) to do the following;
+Register a new household among your household list.
+Edit the information on the 
 
-py
-import this
-print("Please document syntax highlighting in mkdocs")
+
+Why do we need product documentation?
+We need to provide a help center to our users who are using our product.
+The product documentation will help the users to know how to use some features that could be complicated to use.
+
+System Documentation
+
+
+Our system comprises households and assessments forms that will be a guide to collecting the data. There is the login interface where the CHWs provide their mobile numbers and passwords to get started.
+
+
+The household assessments are as follows;
+
+Pregnancy assessment  - Jamii Boras enables CHWs to register pregnant mothers and assess risk factors to referral cases in need of immediate referral or follow-up. CHWs get daily task lists to follow up with mothers, updated on the follow-up profile interface. This allows personalization of care and ensures each mother receives an appropriate number of visits. 
+Family-Planning Assessment:  The application captures the family-planning status of every woman of reproductive age and facilitates a guided discussion for counseling. The app helps guide personalized referrals and tracks referrals to family-planning clinics.
+
+Children assessments- Children are assessed and the main information collected will be based on immunization and child-related diseases. The assessments are taken to pinpoint immunized,under-immunized and mon-immunized children. CHWs will receive reminders until the child is up-to-date on all immunizations and referrals made to specific facilities for further medication if needed.
+
+Referrals - The application enables CHWs to refer patients to specific facilities in case their conditions can not be managed at home. The organization gets an alert about the referrals. Thereafter the patient's profile is updated to the follow-up interface for the CHW to keep in contact with them.
+
+Follow-ups. - The follow-up interface consists of the patients who were referred or whose conditions need a close follow-up. 
+
+Calendar - The Calendar is to enable the CHWs to schedule tasks and also get notified whenever the organizations schedule general tasks such as action days.
 
 
